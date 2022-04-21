@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: dorjanh!
+        url: jdbc:mysql://212.131.189.19:30016/dorjanh
+        username: dorjanh
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    mvc:
+        pathmatch:
+            matching-strategy: ANT_PATH_MATCHER

@@ -2,7 +2,7 @@ server:
     port: 8087
 spring:
     datasource:
-        driver-class-name: com.mysql.cj.jdbc.Driver
+        driverClassname: com.mysql.cj.jdbc.Driver
         password: dorjanh!
         url: jdbc:mysql://212.131.189.19:30016/dorjanh
         username: dorjanh
